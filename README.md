@@ -28,7 +28,7 @@ if I enter "mysql -u root -p" after the vm start and I am logged in via ssh, I a
 "
   create database test;
 
-# add user pinguin with password 1234
+  #add user pinguin with password 1234
   create user 'pinguin'@'localhost' identified by '1234';
   grant usage on *.* to 'pinguin'@'localhost' identified by '1234'; 
   grant all privileges on test.* to 'pinguin'@'localhost';
